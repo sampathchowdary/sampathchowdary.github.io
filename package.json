@@ -28,8 +28,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "custom-deploy": "node pages.js"
+    "eject": "react-scripts eject"
   },
   "engines": {
     "npm": "^9.5.0",

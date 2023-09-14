@@ -37,7 +37,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "sampathchowdary",
-  reposLength: 4,
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -101,17 +101,17 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../logo.svg'),
+      role: 'Software Engineer 2',// Here Add Company Name
+      companylogo: require('../assets/img/eagleview_logo.png'),
       date: 'June 2018 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../logo.svg'),
+      role: 'Assistant System Engineer Trainee',
+      companylogo: require('../assets/img/tcs-color.png'),
       date: 'May 2017 – May 2018',
     },
   ]

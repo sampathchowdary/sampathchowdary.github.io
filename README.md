@@ -8,7 +8,6 @@
     <a href="https://sampathchowdary.github.io/home">sampathchowdary.github.io/home</a>
     <br />
     <br />
-    <a href="https://sampathchowdary.github.io">About Me</a>
   </p>
 </p>
 
@@ -24,5 +23,5 @@ To deploy website, run:
 
    ```bash
     npm run build
-    npm run deploy
+    npm run custom-deploy
    ```

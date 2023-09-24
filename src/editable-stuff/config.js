@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Sampath",
   middleName: "",
   lastName: "Gundapuneni",
-  message: " Passionate about changing the world with technology. ",
+  message: " Passionate about Technology, Committed to Innovation, and Dedicated to Advancing the Digital Frontier. ",
   icons: [
     {
       image: "fa-github",
@@ -78,6 +78,14 @@ const skills = {
     { name: "React", value: 65 },
     { name: "HTML/CSS", value: 55 },
     { name: "C#", value: 80 },
+    { name: "Goal-Oriented", value: 80 },
+    { name: "Collaboration", value: 90 },
+    { name: "Positivity", value: 75 },
+    { name: "Adaptability", value: 85 },
+    { name: "Problem Solving", value: 75 },
+    { name: "Empathy", value: 90 },
+    { name: "Organization", value: 70 },
+    { name: "Creativity"},
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -87,7 +95,7 @@ const skills = {
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Creativity"},
   ],
 };
 
@@ -105,14 +113,24 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer 2',// Here Add Company Name
+      role: 'Teaching Assistant',
+      companylogo: require('../assets/img/UHCLLogo'),
+      date: 'Aug 2022 – Dec 2023',
+    },
+    {
+      role: 'Research Assistant',
+      companylogo: require('../assets/img/UHCLLogo'),
+      date: 'Jan 2022 – Aug 2022',
+    },
+    {
+      role: 'Software Engineer 2',
       companylogo: require('../assets/img/eagleview_logo.png'),
-      date: 'June 2018 – Present',
+      date: 'Aug 2018 – Dec 2021',
     },
     {
       role: 'Assistant System Engineer Trainee',
       companylogo: require('../assets/img/tcs-color.png'),
-      date: 'May 2017 – May 2018',
+      date: 'Jun 2018 – Aug 2019',
     },
   ]
 }

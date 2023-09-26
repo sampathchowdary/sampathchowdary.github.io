@@ -12,7 +12,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [showPic, setShowPic] = React.useState(Boolean(link));
   React.useEffect(() => {
     const handleRequest = async () => {
-      const instaLink = "https://www.instagram.com/";
+      const instaLink = "https://www.instagram.com/"; // udpate 
       const instaQuery = "/?__a=1";
       try {
         const response = await axios.get(instaLink + link + instaQuery);

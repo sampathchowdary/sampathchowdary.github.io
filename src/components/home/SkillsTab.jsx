@@ -20,15 +20,27 @@ function SkillsSection({ skills, isScrolled }) {
 function SkillsTab({ skills, isScrolled }) {
   return (
     <>
-      <Col xs={12} md={6}>
+      <Col xs={12} md={3}>
         <SkillsSection
-          skills={skills.slice(0, Math.floor(skills.length / 2))}
+          skills={skills.slice(0, 10)}
           isScrolled={isScrolled}
         />
       </Col>
-      <Col xs={12} md={6}>
+      <Col xs={12} md={3}>
         <SkillsSection
-          skills={skills.slice(Math.floor(skills.length / 2), skills.length)}
+          skills={skills.slice(11, 20)}
+          isScrolled={isScrolled}
+        />
+      </Col>
+      <Col xs={12} md={3}>
+        <SkillsSection
+          skills={skills.slice(21, 30)}
+          isScrolled={isScrolled}
+        />
+      </Col>
+      <Col xs={12} md={3}>
+        <SkillsSection
+          skills={skills.slice(31,40)}
           isScrolled={isScrolled}
         />
       </Col>

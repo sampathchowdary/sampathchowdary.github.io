@@ -12,12 +12,16 @@ const mainBody = {
   message: " Passionate about Technology, Committed to Innovation, and Dedicated to Advancing the Digital Frontier. ",
   icons: [
     {
-      image: "fa-github",
+      image: require("../assets/img/GitHub_logo.png"),
       url: "https://github.com/sampathchowdary",
     },
     {
-      image: "fa-linkedin",
+      image: require("../assets/img/Logo-LinkedIn.jpg"),
       url: "https://www.linkedin.com/in/sampath-chowdary-sam/",
+    },
+    {
+      image: require("../assets/img/LeetCode_logo.png"),
+      url: "https://leetcode.com/sampath1512/",
     },
   ],
 };
@@ -29,7 +33,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Sampath chowdary Gundapuneni. Experienced full stack developer with a passion for learning, focused on creating scalable solutions that align with company goals. Dedicated to contributing to team success and enhancing user experiences through innovative and collaborative efforts.",
-  resume: "https://drive.google.com/file/d/1qofX_4gGt4SOuKYGmqJIuxroGZ2-2mz3/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1VvUQ7qZGYh4cIMQYf7o5eCKAM30VDsUM/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -43,24 +47,29 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Awards",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "In recognition of outstanding contributions to Eagleview's organizational capability, including the development of Engineering Role's Learning Maps to enhance technical learning and self-sufficiency. Additionally, for tackling and successfully overcoming complex challenges in building the gallery page, demonstrating relentless dedication and innovation.",
   images: [
     { 
-      img: require("../logo.svg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/A&BAward 1.png"), 
+      label: " Above and Beyond Award - Presented by Salim", 
+      paragraph: "" 
     },
     { 
-      img: require("../logo.svg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../assets/img/EVINInnovathon.jpeg"), 
+      label: "Innovathon award - For Innovation", 
+      paragraph: "" 
+    },
+    { 
+      img: require("../assets/img/A&BAward 2.png"), 
+      label: "Above and Beyond Award - Presented by Tripp Cox", 
+      paragraph: "" 
     },
   ],
   imageSize: {
-    width:"615",
+    width:"715",
     height:"450"
   }
 };
@@ -76,6 +85,7 @@ const skills = {
     { name: "Node JS"},
     { name: "SpringBoot"},
     { name: "SQL"},
+    { name: "NoSQL"},
     { name: "OOPS"},
     { name: "PostgreSQL"},
     { name: "ReactJS"},
@@ -83,6 +93,7 @@ const skills = {
     { name: "Saga"},
     { name: "VueJS"},
     { name: "Vuex"},
+    { name: "Angular"},
     { name: "HTML"},
     { name: "CSS"},
     { name: "TypeScript"},
@@ -95,7 +106,10 @@ const skills = {
     { name: "Machine Learning"},
     { name: "Swagger"},
     { name: "Jenkins"},
+    { name: "Kafka"},
+    { name: "Redis"},
     { name: "Docker"},
+    { name: "Kubernates"},
     { name: "SonarQube"},
     { name: "Splunk"},
     { name: "Elastic Search"},
@@ -120,6 +134,7 @@ const getInTouch = {
   message:
     "I'm currently looking for full-time Software Engineering/Developer roles. If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "sampathgundapuneni@gmail.com",
+  Mobile: "+1 281 935 6054"
 };
 
 const experiences = {

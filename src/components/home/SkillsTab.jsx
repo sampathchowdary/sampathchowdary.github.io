@@ -22,25 +22,25 @@ function SkillsTab({ skills, isScrolled }) {
     <>
       <Col xs={12} md={3}>
         <SkillsSection
-          skills={skills.slice(0, 10)}
+          skills={skills.slice(0, skills.length/4)}
           isScrolled={isScrolled}
         />
       </Col>
       <Col xs={12} md={3}>
         <SkillsSection
-          skills={skills.slice(11, 20)}
+          skills={skills.slice(skills.length/4 , (skills.length/4) * 2)}
           isScrolled={isScrolled}
         />
       </Col>
       <Col xs={12} md={3}>
         <SkillsSection
-          skills={skills.slice(21, 30)}
+          skills={skills.slice((skills.length/4) * 2, (skills.length/4) * 3)}
           isScrolled={isScrolled}
         />
       </Col>
       <Col xs={12} md={3}>
         <SkillsSection
-          skills={skills.slice(31,40)}
+          skills={skills.slice((skills.length/4) * 3,(skills.length))}
           isScrolled={isScrolled}
         />
       </Col>

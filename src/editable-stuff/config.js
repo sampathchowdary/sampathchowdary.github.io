@@ -29,11 +29,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../logo.svg"),
+  imageLink: require("../assets/img/profile.jpg"),
   imageSize: 375,
   message:
     "My name is Sampath chowdary Gundapuneni. Experienced full stack developer with a passion for learning, focused on creating scalable solutions that align with company goals. Dedicated to contributing to team success and enhancing user experiences through innovative and collaborative efforts.",
-  resume: "https://drive.google.com/file/d/1VvUQ7qZGYh4cIMQYf7o5eCKAM30VDsUM/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1-WmET8aFq4K_Z7Hq4P5zkNI6hIAEJT-7/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -157,7 +157,7 @@ const experiences = {
       date: 'Aug 2018 – Dec 2021',
     },
     {
-      role: 'Assistant System Engineer Trainee',
+      role: 'Assistant System Engineer',
       companylogo: require('../assets/img/tcs-color.png'),
       date: 'Jun 2018 – Aug 2019',
     },

@@ -33,7 +33,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Sampath chowdary Gundapuneni. Experienced full stack developer with a passion for learning, focused on creating scalable solutions that align with company goals. Dedicated to contributing to team success and enhancing user experiences through innovative and collaborative efforts.",
-  resume: "https://drive.google.com/file/d/1-WmET8aFq4K_Z7Hq4P5zkNI6hIAEJT-7/view?usp=sharing",
+  resume: "https://docs.google.com/document/d/1l9d1jFfqLEWZSdClMeqzzzCIUKcVruep/edit?usp=sharing&ouid=109741263001238961501&rtpof=true&sd=true",
 };
 
 // PROJECTS SECTION

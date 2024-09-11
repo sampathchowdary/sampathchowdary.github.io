@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e9d157d3.css",
-    "main.js": "/static/js/main.0969c66b.js",
+    "main.js": "/static/js/main.cf1e80d5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/A&BAward 2.png": "/static/media/A&BAward 2.334311170849aa30be23.png",
     "static/media/profile.jpg": "/static/media/profile.ad7c307c6fede2716b48.jpg",
@@ -10,15 +10,16 @@
     "static/media/UHCLLogo": "/static/media/UHCLLogo.ce1de19c5376b33c6851",
     "static/media/EVINInnovathon.jpeg": "/static/media/EVINInnovathon.3f4a884c7517104f2adf.jpeg",
     "static/media/tcs-color.png": "/static/media/tcs-color.b0aa44c11cd8831f8cb6.png",
+    "static/media/kindred.png": "/static/media/kindred.9e167430fad382d1fac9.png",
     "static/media/Logo-LinkedIn.jpg": "/static/media/Logo-LinkedIn.13308debdead809b71c9.jpg",
     "static/media/LeetCode_logo.png": "/static/media/LeetCode_logo.c79f333b12595d3eec8f.png",
     "index.html": "/index.html",
     "main.e9d157d3.css.map": "/static/css/main.e9d157d3.css.map",
-    "main.0969c66b.js.map": "/static/js/main.0969c66b.js.map",
+    "main.cf1e80d5.js.map": "/static/js/main.cf1e80d5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9d157d3.css",
-    "static/js/main.0969c66b.js"
+    "static/js/main.cf1e80d5.js"
   ]
 }

@@ -142,23 +142,38 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Full Stack Software Engineer',
+      companylogo: require('../assets/img/kindred.png'),
+      companyName: 'Kindred pest control',
+      companyUrl: 'https://kindredpest.com/',
+      date: 'Mar 2024 – '+`Till Today`,
+    },
+    {
       role: 'Teaching Assistant',
       companylogo: require('../assets/img/UHCLLogo'),
+      companyName: 'University of Houston - Clear lake',
+      companyUrl: 'https://www.uhcl.edu/',
       date: 'Aug 2022 – Dec 2023',
     },
     {
       role: 'Research Assistant',
       companylogo: require('../assets/img/UHCLLogo'),
+      companyName: 'University of Houston - Clear lake',
+      companyUrl: 'https://www.uhcl.edu/',
       date: 'Jan 2022 – Aug 2022',
     },
     {
       role: 'Software Engineer 2',
       companylogo: require('../assets/img/eagleview_logo.png'),
+      companyName: 'EagleView',
+      companyUrl: 'https://www.eagleview.com/',
       date: 'Aug 2018 – Dec 2021',
     },
     {
       role: 'Assistant System Engineer',
       companylogo: require('../assets/img/tcs-color.png'),
+      companyName: 'Tata Consultancy Services',
+      companyUrl: 'https://www.tcs.com/',
       date: 'Jun 2018 – Aug 2019',
     },
   ]

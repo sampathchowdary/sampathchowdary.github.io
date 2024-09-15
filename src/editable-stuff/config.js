@@ -29,8 +29,8 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../assets/img/profile.jpg"),
-  imageSize: 375,
+  imageLink: require("../assets/img/IMG_2153.jpg"),
+  imageSize: 425,
   message:
     "My name is Sampath chowdary Gundapuneni. Experienced full stack developer with a passion for learning, focused on creating scalable solutions that align with company goals. Dedicated to contributing to team success and enhancing user experiences through innovative and collaborative efforts.",
   resume: "https://docs.google.com/document/d/1l9d1jFfqLEWZSdClMeqzzzCIUKcVruep/edit?usp=sharing&ouid=109741263001238961501&rtpof=true&sd=true",
@@ -124,6 +124,11 @@ const skills = {
     { name: "REST"},
     { name: "Linux"},
     { name: "Design"},
+    { name: "Airtable"},
+    { name: "Ring Central"},
+    { name: "Field Routes"},
+    { name: "Zapier"},
+    { name: "Webhook"},
   ],
 };
 

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e9d157d3.css",
-    "main.js": "/static/js/main.e59394ce.js",
+    "main.js": "/static/js/main.873db254.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/A&BAward 2.png": "/static/media/A&BAward 2.334311170849aa30be23.png",
     "static/media/IMG_2153.jpg": "/static/media/IMG_2153.dcb5168dec8ad373e5f2.jpg",
@@ -15,11 +15,11 @@
     "static/media/LeetCode_logo.png": "/static/media/LeetCode_logo.c79f333b12595d3eec8f.png",
     "index.html": "/index.html",
     "main.e9d157d3.css.map": "/static/css/main.e9d157d3.css.map",
-    "main.e59394ce.js.map": "/static/js/main.e59394ce.js.map",
+    "main.873db254.js.map": "/static/js/main.873db254.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9d157d3.css",
-    "static/js/main.e59394ce.js"
+    "static/js/main.873db254.js"
   ]
 }
